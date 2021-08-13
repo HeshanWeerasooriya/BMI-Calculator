@@ -216,6 +216,8 @@ class _InputPageState extends State<InputPage> {
           BottomButton(
             buttonTitle: 'CALCULATE',
             onTap: () {
+              CalculatorBrain calc = CalculatorBrain(height, weight);
+
               Navigator.push(
                 context,
                 MaterialPageRoute(
