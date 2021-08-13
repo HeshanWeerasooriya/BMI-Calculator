@@ -41,15 +41,15 @@ class ResultsPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'OVERWEIGHT',
+                    resultText!.toUpperCase(),
                     style: kResultTextStyle,
                   ),
                   Text(
-                    '26.7',
+                    bmiResult!,
                     style: kBMITextStyle,
                   ),
                   Text(
-                    'fffff ffffffff fffffff fffff ffffff ff',
+                    interpretation!,
                     style: kBodyTextStyle,
                     textAlign: TextAlign.center,
                   ),
