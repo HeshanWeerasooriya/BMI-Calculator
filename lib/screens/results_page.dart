@@ -4,7 +4,13 @@ import 'package:bmi_cal/constants.dart';
 import 'package:flutter/material.dart';
 
 class ResultsPage extends StatelessWidget {
-  const ResultsPage({Key? key}) : super(key: key);
+  const ResultsPage(
+      {Key? key, this.bmiResult, this.resultText, this.interpretation})
+      : super(key: key);
+
+  final String? bmiResult;
+  final String? resultText;
+  final String? interpretation;
 
   @override
   Widget build(BuildContext context) {
