@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'constants.dart';
+import '../constants.dart';
 
 class IconContent extends StatelessWidget {
   const IconContent({Key? key, this.lable, this.icon}) : super(key: key);
